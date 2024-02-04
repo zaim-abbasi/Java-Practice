@@ -115,12 +115,14 @@ public class Main {
 		// ArrayList<String> studentNames = new ArrayList<>();
 
 		// Methods
-		hello();
+		// hello("Zaim");
+
+		// final String name = "Zaim";
 
 	}
 
-	static void hello() {
-		System.out.println("Hello");
+	static void hello(String name) {
+		System.out.println("Hello " + name);
 	}
 
 }
