@@ -16,7 +16,7 @@ public class calculator {
     System.out.println("Enter Operator: ");
     System.out.println("+ - * /");
     operator = scanner.next().charAt(0);
-
+    
     
     if (operator == '+') {
       // plus operation
