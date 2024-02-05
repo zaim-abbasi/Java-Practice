@@ -3,7 +3,9 @@ public class Main {
   {
     System.out.println("Hello World");
 
-    Vehicle v1 = new Vehicle();
-    
+    Vehicle vehicle1 = new Vehicle();
+    vehicle1.go();
+
+
   }
 }

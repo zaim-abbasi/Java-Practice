@@ -24,7 +24,6 @@ public class Main {
     // static: single copy of a variable in every object of a class, used inside pre-defined function calling
     Friend friend1 = new Friend("Spongebob");
     Friend friend2 = new Friend("Patric");
-
     System.out.println(Friend.numberofFriends);
     Friend.FriendsCounter();
 
